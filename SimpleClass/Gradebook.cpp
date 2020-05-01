@@ -6,4 +6,12 @@
 //  Copyright © 2020 line23. All rights reserved.
 //
 
-#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+class Gradebook {
+public:
+    void displayMessage() {
+        cout << "Welcome to the Gradebook" <<std::endl;
+    }
+};

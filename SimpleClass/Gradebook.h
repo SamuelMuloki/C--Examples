@@ -9,5 +9,11 @@
 #ifndef Gradebook_h
 #define Gradebook_h
 
+class Gradebook {
+public:
+    void displayMessage() {
+        std::cout << "Welcome to the Gradebook" <<std::endl;
+    }
+};
 
 #endif /* Gradebook_h */
