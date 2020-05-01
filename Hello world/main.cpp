@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  Line23
+//  Hello world
 //
 //  Created by samuel muloki on 11/05/2019.
 //  Copyright © 2019 line23. All rights reserved.

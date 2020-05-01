@@ -334,7 +334,7 @@
 		3BFCD6C12286F98E008D7CCC = {
 			isa = PBXGroup;
 			children = (
-				3BFCD6CC2286F98E008D7CCC /* Line23 */,
+				3BFCD6CC2286F98E008D7CCC /* Hello world */,
 				3BFCD6DC2287036C008D7CCC /* calc */,
 				3B1FFD192287F9EF00581BF4 /* evenOdd */,
 				3B1FFD242287FE6400581BF4 /* swap */,
@@ -369,12 +369,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3BFCD6CC2286F98E008D7CCC /* Line23 */ = {
+		3BFCD6CC2286F98E008D7CCC /* Hello world */ = {
 			isa = PBXGroup;
 			children = (
 				3BFCD6CD2286F98E008D7CCC /* main.cpp */,
 			);
-			path = Line23;
+			path = "Hello world";
 			sourceTree = "<group>";
 		};
 		3BFCD6DC2287036C008D7CCC /* calc */ = {
