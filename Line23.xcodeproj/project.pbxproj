@@ -16,6 +16,7 @@
 		3BA3A981245C73D9003B0E40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3A980245C73D9003B0E40 /* main.cpp */; };
 		3BA3A98C245C8CF5003B0E40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3A98B245C8CF5003B0E40 /* main.cpp */; };
 		3BA3A998245EE6CA003B0E40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3A997245EE6CA003B0E40 /* main.cpp */; };
+		3BA3A9A3245F0578003B0E40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3A9A2245F0578003B0E40 /* main.cpp */; };
 		3BCBCB2D22883F9F0027905F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBCB2C22883F9F0027905F /* main.cpp */; };
 		3BCBCB38228863400027905F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBCB37228863400027905F /* main.cpp */; };
 		3BCBCB432288782D0027905F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBCB422288782D0027905F /* main.cpp */; };
@@ -105,6 +106,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		3BA3A99E245F0578003B0E40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		3BCBCB2822883F9E0027905F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,6 +184,9 @@
 		3BA3A990245C8D26003B0E40 /* maximum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maximum.h; sourceTree = "<group>"; };
 		3BA3A995245EE6CA003B0E40 /* Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arrays; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA3A997245EE6CA003B0E40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3BA3A9A0245F0578003B0E40 /* GradeBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GradeBook; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA3A9A2245F0578003B0E40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3BA3A9A7245F0615003B0E40 /* GradeBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeBook.h; sourceTree = "<group>"; };
 		3BCBCB2A22883F9E0027905F /* primeNumbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = primeNumbers; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCBCB2C22883F9F0027905F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3BCBCB352288633F0027905F /* perfectNumbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = perfectNumbers; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -244,6 +257,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3BA3A992245EE6CA003B0E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA3A99D245F0578003B0E40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,6 +383,15 @@
 			path = Arrays;
 			sourceTree = "<group>";
 		};
+		3BA3A9A1245F0578003B0E40 /* GradeBook */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3A9A2245F0578003B0E40 /* main.cpp */,
+				3BA3A9A7245F0615003B0E40 /* GradeBook.h */,
+			);
+			path = GradeBook;
+			sourceTree = "<group>";
+		};
 		3BCBCB2B22883F9F0027905F /* primeNumbers */ = {
 			isa = PBXGroup;
 			children = (
@@ -404,6 +433,7 @@
 				3BA3A97F245C73D9003B0E40 /* MathLibraryFunctions */,
 				3BA3A98A245C8CF5003B0E40 /* functionTemplates */,
 				3BA3A996245EE6CA003B0E40 /* Arrays */,
+				3BA3A9A1245F0578003B0E40 /* GradeBook */,
 				3BFCD6CB2286F98E008D7CCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -425,6 +455,7 @@
 				3BA3A97E245C73D9003B0E40 /* MathLibraryFunctions */,
 				3BA3A989245C8CF5003B0E40 /* functionTemplates */,
 				3BA3A995245EE6CA003B0E40 /* Arrays */,
+				3BA3A9A0245F0578003B0E40 /* GradeBook */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -601,6 +632,23 @@
 			productReference = 3BA3A995245EE6CA003B0E40 /* Arrays */;
 			productType = "com.apple.product-type.tool";
 		};
+		3BA3A99F245F0578003B0E40 /* GradeBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA3A9A4245F0578003B0E40 /* Build configuration list for PBXNativeTarget "GradeBook" */;
+			buildPhases = (
+				3BA3A99C245F0578003B0E40 /* Sources */,
+				3BA3A99D245F0578003B0E40 /* Frameworks */,
+				3BA3A99E245F0578003B0E40 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradeBook;
+			productName = GradeBook;
+			productReference = 3BA3A9A0245F0578003B0E40 /* GradeBook */;
+			productType = "com.apple.product-type.tool";
+		};
 		3BCBCB2922883F9E0027905F /* primeNumbers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BCBCB3022883F9F0027905F /* Build configuration list for PBXNativeTarget "primeNumbers" */;
@@ -723,6 +771,9 @@
 					3BA3A994245EE6CA003B0E40 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					3BA3A99F245F0578003B0E40 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					3BCBCB2922883F9E0027905F = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -766,6 +817,7 @@
 				3BA3A97D245C73D9003B0E40 /* MathLibraryFunctions */,
 				3BA3A988245C8CF5003B0E40 /* functionTemplates */,
 				3BA3A994245EE6CA003B0E40 /* Arrays */,
+				3BA3A99F245F0578003B0E40 /* GradeBook */,
 			);
 		};
 /* End PBXProject section */
@@ -840,6 +892,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA3A998245EE6CA003B0E40 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA3A99C245F0578003B0E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA3A9A3245F0578003B0E40 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1030,6 +1090,24 @@
 			name = Debug;
 		};
 		3BA3A99A245EE6CA003B0E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BA3A9A5245F0578003B0E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BA3A9A6245F0578003B0E40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1309,6 +1387,15 @@
 			buildConfigurations = (
 				3BA3A999245EE6CA003B0E40 /* Debug */,
 				3BA3A99A245EE6CA003B0E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA3A9A4245F0578003B0E40 /* Build configuration list for PBXNativeTarget "GradeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA3A9A5245F0578003B0E40 /* Debug */,
+				3BA3A9A6245F0578003B0E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
